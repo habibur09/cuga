@@ -1,0 +1,1 @@
+function openNav(){document.getElementById("may-nav").style.width="100%"}function closeNav(){document.getElementById("may-nav").style.width="0%"}$(document).ready(function(){$(".js--services-section").waypoint(function(n){"down"==n?$("nav").addClass("sticky"):$("nav").removeClass("sticky")});mixitup(".container")});
